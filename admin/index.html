@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1">
+    <title>EES Quiz Buzzer - Admin</title>
+    <script src="https://cdn.firebase.com/js/client/2.4.0/firebase.js"></script>
+</head>
+<body>
+    <script src="demo.js"></script>
+    <h1>EES Quiz Buzzer - Admin Mode</h1>
+    <div id="questionStatusDiv">
+        <h2>Question Status</h2>
+        <p id="questionStatus">Inactive</p>
+    </div>
+    <input type="button" onclick="setQuestionActive()" value="Activate Question">
+    <input type="button" onclick="setQuestionInactive()" value="Deactivate Question">
+    <div id="answeredStatusDiv" style="visibility:hidden">
+        <h2>Is Answered?</h2>
+        <p id="answerStatus">No</p>
+    </div>
+</body>
+</html>
