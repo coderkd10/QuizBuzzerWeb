@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1">
+    <title>EES Quiz Buzzer - User</title>
+    <script src="https://cdn.firebase.com/js/client/2.4.0/firebase.js"></script>
+</head>
+<body>
+    <script src="demo.js"></script>
+    <h1>EES Quiz Buzzer - User Mode</h1>
+    <div id="questionStatusDiv">
+        <h2>Question Status</h2>
+        <p id="questionStatus">Inactive</p>
+    </div>
+    <div id="answeredButtonDiv" style="visibility:hidden">
+        <h2>Buzzer</h2>
+        <p id="answeredStatusIndicator">Press button to answer question</p>
+        <input id="answerButton" type="button" onclick="onAnswerButtonClick()" value="Answer Question">
+    </div>
+</body>
+</html>
