@@ -9,7 +9,7 @@ function setQuestionActive() {
 
 function setQuestionInactive() {
 	isQuestionActiveRef.set(false);
-	isQuestionAnswered.set(false);
+	isQuestionAnsweredRef.set(false);
 }
 
 isQuestionActiveRef.on("value", function(snapshot) {
